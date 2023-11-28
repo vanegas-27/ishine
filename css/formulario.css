@@ -1,0 +1,46 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+img {
+  width: 5rem;
+}
+
+.slide-bck-left {
+  animation: slide-bck-left 0.45s cubic-bezier(0.47, 0, 0.745, 0.715) reverse both;
+}
+
+html {
+  font-family: 62.5%;
+}
+
+body {
+  background-color: rgb(255, 254, 254);
+  margin: 4rem;
+}
+
+form {
+  margin: 0px auto !important;
+  width: 90%;
+  max-width: 700px;
+  background-color: rgb(197, 195, 195);
+  padding: 20px 1rem;
+  border-radius: 10px;
+}
+form .form-floating > label {
+  top: -18px;
+}
+form button, form a {
+  margin-left: 20px;
+}
+
+@keyframes slide-bck-left {
+  0% {
+    transform: translateZ(0) translateX(0);
+  }
+  100% {
+    transform: translateZ(-400px) translateX(-200px);
+  }
+}/*# sourceMappingURL=formulario.css.map */

@@ -1,0 +1,121 @@
+.scale-up-br {
+  animation: scale-up-br 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) backwards;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: 62.5%;
+  background-color: #ffefd8;
+  color: rgba(52, 110, 46, 0.9803921569);
+}
+
+.activ {
+  background-color: rgb(255, 169, 112);
+}
+
+.container-header {
+  width: 100%;
+  margin: 0px;
+  height: 100px;
+  padding: 20px 10px;
+}
+.container-header img {
+  width: 80px;
+  margin-left: 4rem;
+}
+.container-header nav ul {
+  flex-wrap: wrap;
+}
+.container-header ul a {
+  color: rgba(52, 110, 46, 0.9803921569);
+  text-decoration: none;
+}
+.container-header ul li {
+  padding-top: 5px;
+  font-size: 1.2rem;
+  font-weight: 320;
+  text-transform: uppercase;
+  font-style: italic;
+}
+.container-header ul li a:hover {
+  display: table;
+  transform: scale(0.9);
+  transition: all 0.5s ease;
+  border-bottom: 1px solid rgba(52, 110, 46, 0.9803921569);
+  cursor: pointer;
+}
+
+aside {
+  text-align: end;
+}
+aside input[type=text],
+aside select {
+  border: solid 1px rgba(52, 110, 46, 0.9803921569);
+  padding: 5px;
+  outline: none;
+  border-radius: 10px;
+}
+aside input[type=text]:focus-visible,
+aside select:focus-visible {
+  color: white;
+  background-color: rgba(52, 110, 46, 0.9803921569);
+  box-shadow: 1px 1px 6px black;
+}
+
+.main {
+  margin: 0px auto;
+  padding: 4rem 2rem;
+}
+.main .container-article {
+  display: inline-block;
+  margin: 10px 0px;
+  padding: 1rem;
+}
+.main .container-article div {
+  position: relative;
+}
+.main .container-article span {
+  position: absolute;
+  display: table;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: rgba(52, 110, 46, 0.9803921569);
+  color: white;
+  top: -30px;
+  left: -31px;
+}
+.main .container-article img {
+  width: 100%;
+  height: 350px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 0px 20px 20px;
+  box-shadow: 3px -3px 9px #3b3434;
+}
+.main div .fade {
+  position: fixed;
+  width: 100%;
+}
+.main .container-parrafo {
+  padding: 20px 2rem;
+}
+.main .container-parrafo .price {
+  display: table;
+  font-size: 1.3rem;
+  margin: 5px;
+}
+
+@keyframes scale-up-br {
+  0% {
+    transform: scale(0.5);
+    transform-origin: 100% 100%;
+  }
+  100% {
+    transform: scale(1);
+    transform-origin: 100% 100%;
+  }
+}/*# sourceMappingURL=index.css.map */
